@@ -1,7 +1,13 @@
 import { Outlet } from "react-router-dom";
 
 function PageContact() {
-  return <>Contact Id</>;
+  return (
+    <>
+      <h1>Page Contact</h1>
+
+      <Outlet />
+    </>
+  );
 }
 
 export default PageContact;

@@ -4,10 +4,6 @@ function PageHome() {
   return (
     <>
       <h1>Pagina Home</h1>
-
-      <div id="detail">
-        <Outlet />
-      </div>
     </>
   );
 }
